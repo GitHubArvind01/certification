@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Animation</title>
+    <link rel="stylesheet" href="stylish.css" />
+    <style>
+        .sift {
+    width: 90%;
+    padding: 50px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column; /* Display rows vertically */
+    align-items: center; /* Center align items horizontally */
+    
+}
+
+.row {
+    display: flex;
+    flex-direction: row; /* Display images in a row */
+    justify-content: space-around; /* Center align items horizontally with space between */
+    margin-bottom: 20px; /* Add some space between rows */
+}
+
+.fill {
+    width: 30%; /* Set width for each image */
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+
+.fill img {
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+     
+}
+ 
+.fill:hover {
+    transform: scale(1.5);
+}
+
+    </style>
+    
+</head>
+<body>
+    <div class="sift">
+        <div class="row">
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/PWjVFkt/Google-Digital-Marketing.png" alt="sorry">
+            </div>
+
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/Ks8x91S/AWS-Cloud.png" alt="sorry">
+            </div>
+
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/Mgx8rbv/Google-Analytics.png"" alt="sorry">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/3mnbkGC/js-Certification.png" alt="sorry">
+            </div>
+
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/3TWvnpn/Meta-Certificate.png" alt="sorry">
+            </div>
+
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/s2MV5yW/Tata-Data-Visualization.png" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/K5TQpSS/Infosys.png" alt="sorry">
+            </div>
+            <!-- https://i.ibb.co/VWnVPbd/AICTE-Certificate.png -->
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/VQ6MsZP/Screenshot-2024-06-13-132127.png" alt="sorry">
+            </div>
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/6nBsxTj/Learnc.png" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/kJwgVtp/Free-Code-Camp-Certification.png" alt="sorry">
+            </div>
+
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/QM9mBmN/Leet-Code-Badge.png" alt="Add New Image to Show">
+            </div>
+
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/WPkgtvR/ProC.png" alt="Add New Image to Show">
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="fill" onmouseover="hoveredImage(this)">
+                <img src="https://i.ibb.co/VWnVPbd/AICTE-Certificate.png" alt="sorry">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
