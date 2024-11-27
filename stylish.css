@@ -35,7 +35,7 @@
   }
   .container-title .titles .title {
     display: block;
-    font-size: 4rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
@@ -92,4 +92,9 @@
     color: #8492a6 !important;
     font-size: 1rem;
   }
-  
+
+  @media (min-width:150px) and (max-width:786px){
+    .heading-sec__main {
+        font-size: 1rem;
+    }
+  }
